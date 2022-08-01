@@ -1,0 +1,17 @@
+.social-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.social-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  border-radius: 4px;
+  background-color: papayawhip;
+  box-shadow: 2px 0px 5px 0px rgba(0, 0, 0, 0.55);
+  max-width: 300px;
+}
