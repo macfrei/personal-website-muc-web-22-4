@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: honeydew;
+  color: #333;
+  font-family: "Playfair Display", serif;
+  font-size: 112.5%;
+  line-height: 1.4;
+}
+
+li {
+  background-color: papayawhip;
+  padding: 8px;
+  border-radius: 4px;
+  box-shadow: 2px 0px 5px 0px rgba(0, 0, 0, 0.55);
+}
+
+.button {
+  background-color: #333;
+  color: white;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.image-fluid {
+  width: 100%;
+  height: auto;
+}
+
+.align-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.list {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 12px;
+  list-style: none;
+  padding: 0;
+}
+
+.page-header {
+  background-color: papayawhip;
+  padding: 20px;
+}
+
+.page-main {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 20px;
+}
+
+.social-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.social-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  border-radius: 4px;
+  background-color: papayawhip;
+  box-shadow: 2px 0px 5px 0px rgba(0, 0, 0, 0.55);
+  max-width: 300px;
+}
