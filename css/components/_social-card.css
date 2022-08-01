@@ -11,7 +11,7 @@
   align-items: center;
   padding: 12px;
   border-radius: 4px;
-  background-color: papayawhip;
+  background-color: var(--secondary);
   box-shadow: 2px 0px 5px 0px rgba(0, 0, 0, 0.55);
   max-width: 300px;
 }

@@ -2,9 +2,14 @@
   box-sizing: border-box;
 }
 
+:root {
+  --primary: honeydew;
+  --secondary: papayawhip;
+}
+
 body {
   margin: 0;
-  background-color: honeydew;
+  background-color: var(--primary);
   color: #333;
   font-family: "Playfair Display", serif;
   font-size: 112.5%;
