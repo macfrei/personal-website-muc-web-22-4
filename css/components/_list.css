@@ -1,3 +1,4 @@
+/* Block */
 .list {
   display: flex;
   justify-content: space-evenly;
@@ -7,9 +8,20 @@
   padding: 0;
 }
 
-li {
+/* Element */
+.list__item {
   background-color: goldenrod;
   padding: 8px;
   border-radius: 4px;
   box-shadow: 2px 0px 5px 0px rgba(0, 0, 0, 0.55);
+}
+
+/* Modifier */
+.list__item--highlight {
+  background-color: aqua;
+}
+
+/* Modifier */
+.list--special {
+  background-color: blueviolet;
 }
